@@ -4,9 +4,9 @@ $production = false;
 
 if($production){
   // Production
-  define('MYSQL_DATABASE','cp285633_API');
-  define('MYSQL_USER','cp285633_API');
-  define('MYSQL_PASSWORD','kNQ9ok7Y_%l%');
+  define('MYSQL_DATABASE','******');
+  define('MYSQL_USER','*******');
+  define('MYSQL_PASSWORD','*******');
 }else{
   //LocalHost
   define('MYSQL_DATABASE','api');
